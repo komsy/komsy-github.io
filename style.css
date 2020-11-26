@@ -116,6 +116,7 @@ body {
   background-color: grey;
   height:  40px;
 }
+
 .card {
   margin: 0 auto;
   float: none;
@@ -126,7 +127,10 @@ body {
  width: 239px;
  height: 150px;
 }
-
+.card-body i{
+  height: 30px;
+  padding-top: 3px;
+}
 .foot{
   background-color: black;
   height: 200px;
