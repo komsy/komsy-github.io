@@ -137,6 +137,14 @@ color: white;
  padding-left: 0px;
 }
 
+/* Style the modal footer button */
+.mode button{
+  background-color: #EB8815;
+  width: 200px;
+  border-radius: 40px;
+  margin-right: 130px;
+}
+
 /* Style the search box inside the navigation bar */
 
 .foot{
