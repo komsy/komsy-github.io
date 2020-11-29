@@ -57,9 +57,9 @@
           </p>
       </div>
     </nav><!-- /Navbar-->
-
-  <div class="col d-flex justify-content-center">
-    <div class="card shadow buycard">
+  <div class="all" style="margin-left: 20px; ">
+    <div class="col d-flex justify-content-center">
+    <div class="card buycard">
     <div class="card-body">
       <div class="row">
       <div class="col">
@@ -104,8 +104,36 @@
             <div class="card-body">
               <h5 class="card-title">Product Name</h5>
               <p class="card-text"> 2,500 </p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
-            <a href="#" class="btn btn-success">Add to Cart</a>
+               <!-- Button trigger order now modal -->
+          <button type="button" class="btn btn-primary  " data-toggle="modal" data-target="#myModal">Order Now</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Product Details</h4>  <br>
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body">
+                 <img src="images/wm3.jpg" class="card-img-top" alt="shoes">
+                 <h3>Ksh 2,500</h3>
+                 <h6>In Stock</h6>
+                  <p>PCS. <i class="fa fa-minus" aria-hidden="true"></i> 1 <i class="fa fa-plus" aria-hidden="true"></i> </p>
+                </div>
+                <div class="mode">
+                <div class="modal-footer">
+                  <a href="buy.html"><button type="button" class="btn btn-default">OK</button></a>
+                </div>
+              </div>
+              </div>
+              
+            </div>
+          </div><!-- / Order Now modal-->
+        <a href="#"><button class="btn btn-success" onclick="myFunction()">Add to cart</button></a> 
+
             </div>
           </div>
        </div>
@@ -115,13 +143,41 @@
             <div class="card-body">
               <h5 class="card-title">Product Name</h5>
               <p class="card-text"> 2,500 </p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
-            <a href="#" class="btn btn-success">Add to Cart</a>
+               <!-- Button trigger order now modal -->
+          <button type="button" class="btn btn-primary  " data-toggle="modal" data-target="#myModal">Order Now</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Product Details</h4>  <br>
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body">
+                 <img src="images/wm3.jpg" class="card-img-top" alt="shoes">
+                 <h3>Ksh 2,500</h3>
+                 <h6>In Stock</h6>
+                  <p>PCS. <i class="fa fa-minus" aria-hidden="true"></i> 1 <i class="fa fa-plus" aria-hidden="true"></i> </p>
+                </div>
+                <div class="mode">
+                <div class="modal-footer">
+                  <a href="buy.html"><button type="button" class="btn btn-default">OK</button></a>
+                </div>
+              </div>
+              </div>
+              
+            </div>
+          </div><!-- / Order Now modal-->
+        <a href="#"><button class="btn btn-success" onclick="myFunction()">Add to cart</button></a> 
+
             </div>
           </div>
        </div>
      </div>
-     <div class="row" style="margin-top: 10px;">
+     <div class="row shadow" style="margin-top: 10px;">
         <div class="col-md-8">
           <h2>Ksh 3,000 </h2>         
         </div>
@@ -130,6 +186,7 @@
     </div>
   </div>
   </div>
+</div>
 </div>
 </div><!-- / Products -->
 
